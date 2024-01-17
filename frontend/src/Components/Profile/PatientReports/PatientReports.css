@@ -1,0 +1,191 @@
+.side-bar{
+    height: 100vh;
+    width: 8vw;
+    background-color: #2D99AE;
+}
+.patient-detail{
+    display: flex;
+}
+.pr-heading{
+    font-size: 2.5rem;
+    color: #001C44;
+}
+.patient-report{
+    height: 100vh;
+    width: 22vw;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pr-detail{
+    height: 18rem;
+    text-align: center;
+}
+.pr-status{
+    height: 5rem;
+    text-align: center;
+}
+.pr-info{
+    height: 14rem;
+    text-align: center;
+}
+.pr-info p{
+    margin: 0;
+    color:#2D99AE
+}
+.pr-info H3{
+    color: #0C5776;
+}
+.pr{
+    width: 100%;
+    border: 1px solid #95766c;
+    border-radius: 1.5rem;
+    background-color: white;
+}
+.patient_img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 0.5rem;
+    background-size: cover;
+    border: 2px solid#95766c;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 35%;
+}
+.pr-status h3{
+    color: #0C5776;
+}
+.pr-status p{
+    color: #F8DAD0;
+    font-size: 1.75rem;
+}
+.pr-detail-name{
+   font-size: 1.25rem;
+   color: #0C5776;
+   margin-top: 1rem;
+}
+.pr-detail-ID{
+    color: #0C5776;
+}
+.view-pr{
+    height: 2.5rem;
+    width: 75%;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.patient-information{
+    height: 88vh;
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+}
+.pa-info-btns{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.pa-btns, .btn-vital{
+    height: 3rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    font-weight: 600;
+}
+.print-btn{
+width: 20rem;
+}
+.btn-Email{
+  width: 10rem;
+}
+.btn-assign{
+   width: 15rem;
+}
+.pa-info-vital{
+    width: 100%;
+    text-align: center;
+}
+.btn-vital{
+    width: 86%;
+}
+.pa-info-rate{
+    height: 8rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dis-rate{
+    text-align: center;
+    height: 8rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: 1px solid #95766c;
+    background-color: white;
+}
+/* .heart_img{
+    height: 4rem;
+    width: 4rem;
+    border: 0.5px solid;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-top: 0.25rem;
+} */
+.vitalsign-icons{
+    height: 4rem;
+    width: 4rem;
+    border: 0.5px solid;
+    border-radius: 50%;
+    margin-left: 0rem;
+    margin-top: 0.25rem;
+}
+.heart-rate-info{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0C5776;
+}
+.pa-info-test, .pa-info-pres{
+    height: 10rem;
+    width: 86%;
+    background-color: white;
+    border: 1px solid #95766c;
+    margin-top: 1rem;
+    align-items: center;
+    margin-left: 4.5rem;
+    border-radius: 1rem;
+}
+.test-rep, .pa-info-pres{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#001C44;
+}
+.test-rep{    margin-left: 2rem;}
+.scan-test{
+    width: 100%;
+    height:7rem ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+.scan-test-info{
+    height: 6rem;
+    width: 9rem;
+    background-color: #adf7ef;
+    font-size: 1.2rem;
+    color: #2D99AE;
+}
+
+.Patient-Report-Image{
+    height: 3rem;
+}
+
+.prescriptions-heading{
+    margin: 10px;
+    font-weight: 700;
+}

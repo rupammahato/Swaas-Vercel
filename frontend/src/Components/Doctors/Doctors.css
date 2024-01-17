@@ -1,0 +1,105 @@
+.infoDoc{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color:#6999B3;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.doctor-details-card{
+    height: 250px;
+    width: 50vw;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    border-radius: 1.5rem;
+    margin-bottom: 0;
+}
+.doctor-profile-image{
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    background-image: url("../SwaasIcons/photo.png");
+    border-radius: 1rem;
+    background-size: cover;
+}
+.ins{
+    height: 200px;
+    width: 220px;
+    margin-top: 25px;
+}
+.buttonDoc{  
+     height: 200px;
+    width: 180px;
+    margin-top: 25px;
+}
+#ins1{
+    font-size: 1.45rem;
+    font-weight: 500;
+    color:#6999B3;
+    margin:0;
+}
+#ins2{
+    margin-top: 0.25px;
+    font-weight: 400;
+    color:#6999B3;
+    margin-bottom: 0.4px;
+}
+#ins3{
+    margin-top: 0px;
+    font-weight: 400;
+    color:#6999B3;
+    margin-bottom: 0.4px;
+}
+#ins4 a{
+    margin-bottom: 0;
+    text-decoration: none;
+    color:#4197C5;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+#ins5{
+    margin-top: 0px;
+    font-weight: 400;
+    color:#6999B3;
+    margin-bottom: 0.4px;
+}
+.button1{
+    margin-top: 0.5rem;
+    height: 1.6rem;
+    width: 5rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    background:linear-gradient(to left,#99E5A2,#41D8DD);
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.buttonDoc .btnDoc{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background:linear-gradient(to left,#99E5A2,#41D8DD);
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 0;
+    color: #6999B3;
+   margin-left: 1rem;
+}
+.btn-info{
+    font-size: 0.8rem;
+    margin-top: 2px;
+    color: #6999B3;
+    text-align: center;
+}
+.footer{
+    height: 200px;
+    width: 100vw;
+    margin-top: 4rem;
+    background:linear-gradient(to top,#99E5A2,#41D8DD);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}

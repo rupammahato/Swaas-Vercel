@@ -1,0 +1,66 @@
+.PatientProfileDiv{
+    display: flex;
+    height: 100vh;
+}
+.PatientProfileHeading{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #307743;
+}
+.userImage{
+    height: 10rem;
+    width: 10rem;
+    margin-top: 8rem;
+}
+
+.detailsHeading{
+font-size: 1.5rem;
+font-weight: 600;
+text-align: center;
+color: #307743;
+
+}
+.detailsImagePatient{
+    width:40vw;
+    display: flex;
+  justify-content: center;
+
+}
+.registrationDetails{
+    width: 60vw;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.table{
+  border: 2px solid #0D6869;
+  border-radius: 1rem;
+  width: 27vw;
+  height: 3rem;
+  margin: 1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.DetailsForm{
+    background-color: white;
+    height: auto;
+    width: 60vw;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.tableHeading{
+    color: #307743;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+.tableBody{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.tableDetail{
+color: #0D6869;
+}

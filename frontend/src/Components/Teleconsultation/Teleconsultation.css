@@ -1,0 +1,391 @@
+.header-teleconsultation{
+    height: 90px;
+    width: 100vw;
+    background-color: #0D6869;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.teleconsultation-main{
+    height: 70vh;
+    width: 90vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5vw;
+    border-radius: 20px;
+}
+
+
+.teleconsultaion-main-image{
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mainTele{
+    margin-top: 80px;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+}
+
+.Teleinfo{
+    height: 400px;
+    width: 800px;
+    margin-left: 2rem;
+}
+.photo1Tele{
+    background-image: url("../SwaasIcons/photo1.jpg");
+    background-size: cover;
+    height:400px;
+    width: 400px;
+    margin-left: 4rem;
+}
+
+.TeleHI1{
+    font-size: 2.5rem;
+    color:#6999B3;
+    font-weight:600;
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+.TeleHI2{
+    font-size: 2.5rem;
+    color:#6999B3;
+    font-weight:600;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.Teleinfo1{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color:#6999B3;
+    font-weight:400;
+}
+.button{
+    margin-top: 0;
+    margin-left:2.5rem;
+    height: 4rem;
+    width: 14rem;
+    text-align: center;
+    border-radius: 1rem;
+    background:linear-gradient(to left,#99E5A2,#41D8DD);
+    color:white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.infoLinks{
+    margin-top: 2rem;
+}
+.infoLinks a{
+    text-decoration: none;
+    color: #6999B3; 
+}
+.DP{
+    margin-left: 3rem;
+}
+.FF{
+    margin-left: 3rem;
+}
+.specialities{
+    height: 330px;
+    background-color: #CAF4F4;
+    width: 90%;
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    margin-right: 2.5rem;
+}
+.heading-specialities h2{
+    font-size: 2.5rem;
+    color:#6999B3;
+    font-weight:600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.heading-specialities p{
+    font-size: 1.25rem;
+    color:#6999B3;
+    font-weight:400;
+    margin-top: 0;
+}
+.communication{
+    height: 240px;
+    width: 100%;
+    margin-left:0px;    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.comm1{
+    height: 190px;
+    width: 220px;
+    border-radius: 1rem;
+    
+}
+.comm1:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.photo2{
+    background-image: url("../SwaasIcons/photo2.jpeg");
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.info-com{
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+}
+.info-com a{
+    text-decoration: none;
+    color: #6999B3; 
+    font-size: 1.1rem;
+    font-weight: 550;
+    text-align: center;
+}
+.photo3{
+    /* background-image: url("./Assests/Images/photo3.jpg"); */
+    background-image: url("../SwaasIcons/photo3.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.photo4{
+    /* background-image: url("./Assests/Images/photo4.jpg"); */
+    background-image: url("../SwaasIcons/photo4.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.photo5{
+    /* background-image: url("./Assests/Images/photo5.jpg"); */
+    background-image: url("../SwaasIcons/photo5.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.photo6{
+    /* background-image: url("./Assests/Images/photo6.jpg"); */
+    background-image: url("../SwaasIcons/photo6.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.photo7{
+    /* background-image: url("./Assests/Images/photo7.jpg"); */
+    background-image: url("../SwaasIcons/photo7.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.photo8{
+    /* background-image: url("./Assests/Images/photo8.jpg"); */
+    background-image: url("../SwaasIcons/photo8.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.photo9{
+    /* background-image: url("./Assests/Images/photo9.jpg"); */
+    background-image: url("../SwaasIcons/photo9.jpg");
+
+    background-size: cover;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.review{
+    display:flex;
+    justify-content: center;
+    height: 300px;
+    width: 75vw;
+    margin-top: 6rem;
+    background-color:#CAEFD1;
+}
+.review p{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    top: 140px;
+    font-weight: bold;
+}
+.footer{
+    height: 400px;
+    width: 100vw;
+    background:linear-gradient(#99E5A2,#41D8DD);
+    margin-top: 10rem;
+}
+@media screen and (max-width:900px)  {
+    .mainTele{
+        width: 100vw;
+        height: fit-content;
+        margin-top: 2rem;
+        display:block;
+    }
+    .headingTele{
+        text-align: center;
+    }
+    .Teleinfo{
+        height: fit-content;
+        margin-left: 0;
+        width: 100%;
+    }
+    .heading-specialities{
+        height: fit-content;
+    }
+    .TeleHI1,.TeleHI2{
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+    .button{
+        font-size: 1rem;
+        margin-left: 8.5rem;
+        height:2rem;
+        width: 7.5rem;
+        padding-top: 0.3rem;
+        margin-top: 1rem;
+    }
+    .DP,.FF{
+        margin-left: 1rem;
+    }
+    .Teleinfo1{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .infoLinks{
+        margin-top: 1rem;
+
+    }
+    .photo1Tele{
+        position: relative;
+        height: 9rem;
+        width: 10rem;
+        /* top:19rem; */
+margin: 0 auto;    }
+    /* .communication{
+        display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height:fit-content;
+  margin:1rem;
+  left:0;
+  width:100%;
+    } */
+    .specialities{
+        height: fit-content;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .specialities h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .specialities p{
+        text-align: center;
+    }
+    
+    .photo2,.photo3,.photo4,.photo5{
+        height:9rem;
+        width: 10rem;
+    }
+    .photo6,.photo7,.photo8,.photo9{
+        height:10rem;
+        width:10rem;
+    }
+    .review{
+        margin-top: 3rem;
+    }
+    .info-com{
+        padding: 4px;
+    }
+}
+@media screen and (min-width:780px ) and (max-width:900px) {
+    .communication{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        height:fit-content;
+        margin:1rem;
+        left:0;
+        width:100%;
+      }
+      .comm1{
+        height:14rem;
+        width: 11rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:539px) and (max-width:780px) {
+    .communication{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        height:fit-content;
+        margin:1rem;
+        left:0;
+        width:100%;
+      }
+      .comm1{
+        height:14rem;
+        width: 11rem;
+        margin: 0 auto;
+    }}
+      @media screen and (min-width:375px) and (max-width:539px) {
+        .communication{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            height:fit-content;
+            margin:1rem;
+            left:0;
+            width:100%;
+          }
+          .comm1{
+            height:fit-content;
+            width: 11rem;
+            margin: 0 ;
+        }}
+        @media screen and (max-width:375px) {
+            .communication{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+                height:fit-content;
+                margin:1rem 0.5rem;
+                left:0;
+                width:100%;
+              }
+              .comm1{
+                height:fit-content;
+                width: 11rem;
+                margin: 0  auto;
+            }}

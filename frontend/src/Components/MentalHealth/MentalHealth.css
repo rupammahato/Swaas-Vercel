@@ -1,0 +1,205 @@
+.mentalhealth-main{
+    margin: 5vw;
+    width:90vw;
+    border:2rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoMental{
+    height: inherit;
+    width: 40vw;
+    margin-left: 1.5rem;
+}
+.mentalhealth-main-image{
+    height: 70vh;
+    width:40vw;
+    border-radius: 1rem;
+
+}
+
+.HI{
+font-size: 2.5rem;
+color:#6999B3;
+font-weight:600;
+text-align: center;
+}
+.HI1{
+    margin-bottom: 0;
+}
+.HI2{
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+.info1{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color:#307743;
+    font-weight:400;
+    margin-bottom: 0;
+    text-align: center;
+}
+.buttonMental{
+    height: 3rem;
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background:linear-gradient(to left,#99E5A2,#41D8DD);
+    color:white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 36%;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 0;
+}
+.INF-H{
+    text-align: center;
+    font-size: 2.5rem;
+    color:#6999B3;
+    font-weight: 600;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.info2{
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    width: 100vw;
+    border-radius: 1rem;
+    background-color: white;
+    align-items: center;
+}
+.photo2Mental{
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.info3{
+    width: 50vw;
+    height: 300px;
+    margin-right: 2.5rem;
+}
+.para{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#307743;
+    font-weight:400;
+    margin-top: 2rem;
+}
+#button2{
+    height: 3.5rem;
+    width: 11rem;
+    text-align: center;
+    border-radius: 1rem;
+    background:linear-gradient(to left,#99E5A2,#41D8DD);
+    color:white;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+    cursor: pointer;
+    margin-left: 4.2rem;
+    border: none;
+    margin-top: 1rem;
+    margin:0;
+    margin-left: 16rem;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .mentalhealth-main{
+        display: block;
+        width: 100%;
+
+    }
+    .infoMental{
+        width: 100%;
+        margin-left: 0;
+    }
+    .info2{
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    .INF-H{
+        font-size: 1.5rem;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    .HI {
+        font-size: 1.5rem;
+    }
+    .info1{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    #button1{
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 1rem;
+        width: 11rem;
+        height: fit-content;
+        font-size: 1.2rem;
+        padding: revert;
+    }
+    .photo1{
+        position: relative;
+        height: 11rem;
+        width: 12rem;
+        margin: 0 auto;
+        top: 0;
+    }
+    .photo2Mental{
+        position: relative;
+        height: 10rem;
+        width: 12rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .info2{
+        width: 100%;
+        display: block;
+        height: fit-content;
+    }
+    .info3{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        height: fit-content;
+
+    }
+    #button2{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .nav{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0;
+    width: 100%;
+    height:fit-content;
+    }
+    .nav1{
+        margin: auto;
+        height:2.5rem;
+        width:10rem;
+        
+        text-align: center;
+    }
+    .nav1 a{
+        font-size: 1rem;
+        margin:0;
+        font-weight: 600;
+    }
+    .review{
+        margin-top: 0;
+    }
+    
+}

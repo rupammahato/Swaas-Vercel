@@ -1,0 +1,23 @@
+.review {
+    width: 75vw;
+    height: 300px;
+    margin-top: 6.8rem;
+    margin-bottom: 6.8rem;
+    margin-left: 12%;
+    border-radius: 1.5rem;
+    background-color: #CAEFD1;
+    text-align: center;
+}
+
+.review-info {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #0D6869;
+}
+
+@media screen and (max-width:480px) {
+    .review {
+        margin-top: 0rem;
+    }
+}

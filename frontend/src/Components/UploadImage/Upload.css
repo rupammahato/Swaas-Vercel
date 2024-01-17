@@ -1,0 +1,52 @@
+.image-upload-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.box-decoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.image-upload-input {
+    display: none;
+}
+
+.image-upload-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-upload-button:hover {
+    background-color: #3e8e41;
+}
+
+.img-display-before {
+    background-image: url(./usercircle.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.img-display-after {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}

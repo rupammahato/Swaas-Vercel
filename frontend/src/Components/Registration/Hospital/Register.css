@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+    background-color: #DFF8F8;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0;
+}
+.logo{
+    /* background-image: url("./Assets/logo.png"); */
+    background-size: cover;
+    height: 80px;
+    width: 160px;
+    margin-left: 1rem ;
+}
+.profile-photo{
+    /* background-image: url("./Assets/profile-photo.png"); */
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin-right: 3rem;
+}
+.heading{
+    align-items: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.d-sign-in{
+    background-color: #CAEFD1;
+    height: auto;
+    width: 60vw;
+    margin-left: 35vw;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.d-sign-in h2{
+    align-items: center;
+    margin-left: 44%;
+    font-weight: 500;
+}
+.doctor{
+    height: 5rem;
+    width: 50%;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.doctorId{
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    width: 100%;
+    color: #307743;
+}
+.doctorId-in{
+    height: 2.5rem;
+    width: 80%;
+    margin-left: 3rem;
+    background-color: #CAEFD1;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    border: 1px solid black;
+}
+.doc-btn{
+    font-size: 1.25rem;
+    color: aliceblue;
+    font-weight: 600;
+    height: 2.5rem;
+    margin-left: 40%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.doc-sign{
+    display: flex;
+    flex-wrap: wrap;
+}
+.doc-btn:hover{
+    box-shadow: 2px 4px 8px black;
+}
+.sign-photo{
+    position: fixed;
+    /* background-image: url("./Assets/Reports.png"); */
+    background-size: cover;
+    height: 80vh;
+    width: 38vw;
+}

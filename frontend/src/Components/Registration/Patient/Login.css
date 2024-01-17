@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inputButton {
+    border-radius: 1rem;
+    background: linear-gradient(to left, #99E5A2, #41D8DD);
+    color: #0D6869;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.inputContainer>.errorLabel {
+    color: red;
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.loginbodypat {
+    height: 100vh;
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDE1LXJtMjA4LTA0LmpwZw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.loginbox {
+    background-image: url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 40vw;
+    border-radius: 1rem;
+
+}
+
+.enterbox {
+    height: 5vh;
+    margin: 1vh;
+    width: 20vw;
+    border-radius: 20px;
+    padding-left: 1vw;
+    border: none;
+    color: #0D6869;
+}
+
+.forgotpass {
+    color: blue;
+    width: 10rem;
+    margin: 1rem;
+    height: 2rem;
+}
+
+.loginhead {
+    padding-left: 40vw;
+    padding-top: 25vh;
+    padding-bottom: 5vh;
+    font-weight: 900;
+    font-size: x-large;
+    color: #0D6869;
+}
+
+.loginhorizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.docsymbol {
+    height: 30vh;
+    width: 15vw;
+    background-repeat: no-repeat;
+}

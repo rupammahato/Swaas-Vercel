@@ -1,0 +1,132 @@
+.header-aboutus{
+    height: 90px;
+    width: 100vw;
+    background-color: #0D6869;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.medicalbookpic{
+    background-image: url("../SwaasIcons/medicalbookpic.png");
+    background-size: cover;
+    width: 556px;
+    height: 414px;
+    
+}
+
+#medicalbook {
+    background: #CAEFCE;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #83ACC2;
+    margin-top: 60px;
+    font-size: x-large;
+}
+button {
+    border-radius: 20px;
+    background: linear-gradient(270deg, #8FDD9E 0%, #4ABCF8 100%);
+    width: 170px;
+    height: 50px;
+    border: none;
+
+}
+a:hover {
+    background: linear-gradient(270deg, #12ec33 0%, #0688ce 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+a {
+    text-decoration: none;
+}
+#hospitalnear{
+    margin-top: 50px;
+}
+#hospitalloc {
+    height: 35px;
+    width: 250px;
+    padding-left: 40px;
+    border-radius: 20px;
+    font-size: larger;
+}
+#hospitallocdiv {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.hospitaldetail {
+    background: #CAEFCE;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    margin-left: 269px;
+    margin-top: 40px;
+    border-radius: 1rem;
+}
+#bookmedical{
+    margin-left: 10rem;
+}
+.photoDocEmer{
+    height: 180px;
+    width: 200px;
+    /* margin-top: 25px; */
+    /* background-image: url("./Images/photo.png"); */
+    background-image: url("../SwaasIcons/photo.png");
+
+    border-radius: 1rem;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 80px;
+    height: 145px;
+    border-radius: 40px;
+    background: linear-gradient(0deg, #45969F 0%, #CAEFD1 135.22%);
+}
+@media screen and (max-width:900px) {
+    #medicalbook{
+        display: block;
+        height: fit-content;
+    }
+    #medicalbook p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    #bookmedical{
+        height:2.5rem;
+        width: 10rem;
+        margin: 0;
+    }
+    .medicalbookpic{
+         
+            position: relative;
+            height: 12rem;
+            width: 15rem;
+margin:  0 auto;    }
+    #hospitalnear{
+        margin-top: 2rem;
+    }
+    #hospitallocdiv{
+        margin-top: 0.75rem;
+    }
+    .hospitaldetail{
+        height:11rem;
+        width: 100%;
+        margin-left: 0;
+    }
+    .photoDocEmer{
+        height:8rem;
+        width: 12rem;
+        margin-right: 1rem;
+    }
+    .hospitaldetail button{
+        height: 2rem;
+        width:8rem;
+    }
+}
